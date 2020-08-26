@@ -1,4 +1,36 @@
-.footer{
-  margin-left : 80px;
-  font-size : 18px;
+.wrapper {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px 200px;
+  grid-gap: 10px;
+  justify-items: center;
+
+}
+
+.item {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0.5px 0.5px 1px 1px grey;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+#score {
+  font-size: 40px;
+}
+
+h1 {
+  font-size: 100%;
+}
+
+h4 {
+  font-size: medium;
+}
+
+.footer {
+  margin-left: 80px;
+  font-size: 18px;
 }
